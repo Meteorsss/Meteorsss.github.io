@@ -225,6 +225,12 @@ main {
   line-height: 1.18;
 }
 
+.post-cover-image {
+  width: 100%;
+  height: auto;
+  margin: 0 0 34px;
+}
+
 .post-body {
   color: #282828;
   font-family: "Roboto", "Microsoft YaHei", Arial, Helvetica, sans-serif;
