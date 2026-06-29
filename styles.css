@@ -184,6 +184,58 @@ main {
   line-height: 21px;
 }
 
+.news-card-text-only a {
+  min-height: 190px;
+  padding: 34px 38px;
+  border: 1px solid #d9d9d9;
+  background: #f7f8f4;
+}
+
+.news-card-text-only h3 {
+  margin-top: 0;
+}
+
+.post-page {
+  padding: 76px 24px 110px;
+}
+
+.post-article {
+  width: min(760px, 100%);
+  margin: 0 auto;
+}
+
+.post-back {
+  display: inline-block;
+  margin-bottom: 28px;
+  color: #555555;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.post-back:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.post-article h1 {
+  margin: 0 0 34px;
+  color: #282828;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.18;
+}
+
+.post-body {
+  color: #282828;
+  font-family: "Roboto", "Microsoft YaHei", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.post-body p {
+  margin: 0 0 22px;
+}
+
 footer {
   min-height: 286px;
   background: #282828;
@@ -349,6 +401,26 @@ footer {
     margin-left: 30px;
     font-size: 14px;
     line-height: 21px;
+  }
+
+  .news-card-text-only a {
+    min-height: 160px;
+    padding: 28px 0;
+  }
+
+  .post-page {
+    padding: 44px 30px 70px;
+  }
+
+  .post-article h1 {
+    margin-bottom: 24px;
+    font-size: 32px;
+    line-height: 1.25;
+  }
+
+  .post-body {
+    font-size: 16px;
+    line-height: 1.9;
   }
 
   footer {
