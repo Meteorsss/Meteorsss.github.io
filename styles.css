@@ -147,6 +147,21 @@ main {
   width: 100%;
 }
 
+.news-card a {
+  display: block;
+  color: inherit;
+}
+
+.news-card a:hover h3 {
+  text-decoration: underline;
+}
+
+.news-card-featured {
+  grid-column: 1 / -1;
+  justify-self: center;
+  width: 518px;
+}
+
 .news-card img {
   width: 100%;
   height: auto;
@@ -310,6 +325,10 @@ footer {
   .news-card {
     width: 100%;
     margin-bottom: 24px;
+  }
+
+  .news-card-featured {
+    width: 100%;
   }
 
   .news-card img {
