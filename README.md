@@ -1,4 +1,4 @@
-# Skate Park Static Template
+# Something for nothing
 
 This is a static HTML/CSS/JS recreation of the Vercel Sitecore XM Cloud demo
 homepage visual layout. It does not require Sitecore, Next.js, Node.js, or
